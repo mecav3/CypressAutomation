@@ -23,11 +23,8 @@ cy.get('#navbarDropdown > span').should('contain','51');
  
 cy.get('#user_group_id').select('Students');
 
-it('new one',()=>{
     cy.get('.form-body > :nth-child(2) > :nth-child(2) > .form-group > .form-control').type('myname123@yes.com');
     
-})
-
     })
 
      
